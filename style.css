@@ -1,0 +1,39 @@
+*{
+    font-family: cambira, sans-serif;
+}
+.pictures{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+:root { /* Notice we declare this with the same key, value pair. */
+    /* --primary-color: red;
+    --secondary-color: blue;
+    --tertiary-color: yellow;
+/* } */
+/* h1 { Declare variables the same way you would other values. */
+    /* background-color: var(--tertiary-color);
+    color: var(--primary-color);
+} */
