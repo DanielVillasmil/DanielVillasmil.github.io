@@ -58,6 +58,7 @@ body{
     background-image: url(./Pictures/space.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-size: 1500px;
 }
 .solid {
     background-color: lightgrey;
