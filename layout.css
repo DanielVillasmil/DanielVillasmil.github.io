@@ -5,15 +5,20 @@
 }
 .header_icons{
     margin: 0;
+    padding-inline-start: 0%;
 }
 .nav__icon{
-    margin: 40px;
-    margin-left:-10px;
-    margin-right: -10px;
+    padding:10px;
+    display: grid;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    grid-template-columns: 1000px;
+    grid-template-rows: 500px;
+    margin-left:-10px;
+    margin-right: -10px;
+  
 }
 body{
     background-image: url(./Pictures/snow.jpg);
@@ -45,13 +50,25 @@ body{
     text-align: center;
 }
 .social__media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
     margin: 20px;
    display: grid;
    grid-area: auto;
    grid-template-columns: 300px 300px 300px;
    grid-template-rows: 300px;
-   
+}
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
