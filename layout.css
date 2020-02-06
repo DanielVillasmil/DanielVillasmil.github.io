@@ -1,0 +1,140 @@
+*{
+    border-width: 1px;
+    font-family: Cambria, sans-serif;
+
+}
+
+.header_title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     font-size: 70px;
+}
+.header_icons{
+    margin: 0;
+}
+
+.nav__icon{
+    margin: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.nav__foot{
+    margin: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.bio__header{
+    margin: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bio{
+    text-align: center;
+}
+
+.virtual_crab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.hospital{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.pictures__picture-box{
+    text-align: center;
+}
+body{
+    background-image: url(./Pictures/snow.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: 1900px;
+}
+.solid {
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+  }
+  .contact{
+      display: flex;
+      flex-direction: column;
+      text-align: center;  
+  }
+  .social__media{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .nav__icon {
+        overflow: hidden;
+      }
+  
+      .nav__icon a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .nav__foot {
+        overflow: hidden;
+      }
+  
+      .nav__foot a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+      }  
+      .nav__foot {
+        padding: 0px;
+        text-align: center;
+    }
+    .column {
+        margin-top: 100px;
+        margin-left: 100px;
+        float: center;   
+    }
+    .nav__icon {
+        overflow: hidden;
+    }
+
+    .nav__icon a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .nav__icon {
+        overflow: hidden;
+        }
+        .nav__icon a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
