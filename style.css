@@ -55,10 +55,9 @@
     text-align: center;
 }
 body{
-    background-image: url(./Pictures/WS-50199_WP.jpg);
+    background-image: url(./Pictures/space.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 1500px;
 }
 .solid {
     background-color: lightgrey;
