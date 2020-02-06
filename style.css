@@ -1,18 +1,24 @@
 *{
     border-width: 1px;
     font-family: Cambria, sans-serif;
+
 }
 
 .header_title{
     margin-top: 40px;
-    margin-bottom: -40px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: center;
    text-align: center;
 }
+.header_icons{
+    margin: 0;
+}
 
 .nav__icon{
     margin: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -49,18 +55,20 @@
     text-align: center;
 }
 body{
-    background-color: rgb(141, 190, 247);
+    background-image: url(./Pictures/WS-50199_WP.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1500px;
 }
 .solid {
     background-color: lightgrey;
     width: 300px;
-    border: 15px solid rgb(11, 121, 29);
+    border: 15px solid #333;
     padding: 50px;
     margin: auto;
   }
   .contact{
       display: flex;
-      /* justify-content: flex-start; */
       flex-direction: column;
       text-align: center;  
   }
