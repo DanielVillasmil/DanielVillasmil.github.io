@@ -37,7 +37,9 @@ body{
     justify-content: space-evenly;
     text-align: center;
     text-decoration: none
-
+}
+#crab{
+    text-decoration: none;
 }
 .hospital{
     display: flex;
@@ -45,7 +47,10 @@ body{
     justify-content: space-evenly;
     text-align: center;
     text-decoration: none;
+}#hospi{
+    text-decoration: none;
 }
+
 .pictures__picture-box{
  
     text-align: center;
@@ -58,8 +63,8 @@ body{
     margin-bottom: 0px;
 }
 .social__media {
-    padding: 20px;
-    margin: 20px;
+    padding: 50px;
+    margin: 50px;
    display: grid;
    grid-area: auto;
    grid-template-columns: 300px 300px 300px;
