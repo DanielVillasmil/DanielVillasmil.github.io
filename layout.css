@@ -1,6 +1,8 @@
 *{
     border-width: 1px;
     font-family: Cambria, sans-serif;
+    padding: 0px;
+    margin: 0px;
 
 }
 .header_icons{
@@ -8,7 +10,7 @@
     padding-inline-start: 0%;
 }
 .nav__icon{
-    padding:10px;
+    padding:5px;
     display: grid;
     display: flex;
     flex-direction: row;
@@ -16,8 +18,8 @@
     text-align: center;
     grid-template-columns: 1000px;
     grid-template-rows: 500px;
-    margin-left:-10px;
-    margin-right: -10px;
+    margin-left:0px;
+    margin-right: 0px;
   
 }
 body{
@@ -34,20 +36,26 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    text-decoration: none
+
 }
 .hospital{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    text-decoration: none;
 }
 .pictures__picture-box{
  
     text-align: center;
+    text-decoration: none;    
+
 }
 .nav__foot {
-    padding: 0px;
+    padding: 30px;
     text-align: center;
+    margin-bottom: 0px;
 }
 .social__media {
     padding: 20px;
