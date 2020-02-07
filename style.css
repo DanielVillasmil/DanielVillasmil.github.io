@@ -50,7 +50,7 @@
     font-size: 120%; 
 }
 
-.virtual_crab a {
+.virtual_crab a:link {
     color:rgb(35, 35, 35);
 }
 
