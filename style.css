@@ -1,119 +1,74 @@
 *{
     border-width: 1px;
     font-family: Cambria, sans-serif;
-
 }
 
-.header_title{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-     font-size: 70px;
-     color:rgb(35, 35, 35);
+#main-header{
+    font-size: 70px;
+    color:rgb(35, 35, 35);
+}
+
+.nav__icon {
+    background-color: rgba(51, 51, 51, 0.900);
+}
+      
+.nav__icon a {
+    color: #f2f2f2;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 140%;
+}
+      
+.nav__icon a:hover {
+    background-color: #ddd;
+    color: rgba(0, 0, 0, 0.900);
+}
+
+.bio__header{
+    font-size: 30px;
+    color: rgb(35, 35, 35);
+}
+
+.solidbio {
+    background-color: rgba(211, 211, 211, 0.900);
+    border: 15px solid rgba(51, 51, 51, 0.900);
+    padding: 50px;
+    font-size: 120%;
+}
+
+.contact{  
+    color: rgb(35, 35, 35);
+}
+
+.social__media{
+    color: rgb(35, 35, 35);
+}
+
+.solidprojec {
+    background-color: rgba(211, 211, 211, 0.900); width: 300px;
+    border: 15px solid rgba(51, 51, 51, 0.900);
+    font-size: 120%; 
+}
+
+.virtual_crab a {
+    color:rgb(35, 35, 35);
+}
+
+.hospital a:visited{
+    color:rgb(35, 35, 35);
 }
 
 .nav__foot{
     color: #f2f2f2  ;
-    margin: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
+    background-color: rgba(51, 51, 51, 0.900);
 }
 
-.bio__header{
-    margin: 50px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-    color: rgb(35, 35, 35);
+.nav__foot a {
+    color: #f2f2f2;
+    font-size: 100%;
 }
-.solidbio {
-    background-color: rgba(211, 211, 211, 0.900);
-    width: 500px;
-    border: 15px solid rgba(51, 51, 51, 0.900);
-    padding: 50px;
-    margin: auto;
-    font-size: 120%;
-    
-  }
-  .solidprojec {
-    background-color: rgba(211, 211, 211, 0.900);
-    width: 300px;
-    border: 15px solid rgba(51, 51, 51, 0.900);
-    padding: 50px;
-    margin: auto;
-    font-size: 120%;
-    
-  }
-  .contact{
-      display: flex;
-      flex-direction: column;
-      text-align: center;  
-      color: rgb(35, 35, 35);
-  }
-  .social__media{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      color: rgb(35, 35, 35);
-    }
-    .nav__icon {
-        overflow: hidden;
-        background-color: rgba(51, 51, 51, 0.900);
-      }
-  
-      .nav__icon a {
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        font-size: 140%;
-      }
-  
-      .nav__icon a:hover {
-        background-color: #ddd;
-        color: rgba(0, 0, 0, 0.900);
-      }
 
-      .nav__foot {
-        overflow: hidden;
-        background-color: rgba(51, 51, 51, 0.900);
-      }
-      .nav__foot a {
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        font-size: 100%
-    ;
-      }
-      .nav__foot a:hover {
-        background-color: #ddd;
-        color: rgba(0, 0, 0, 0.900);
-      }
-    .nav__icon {
-        padding: 0%;
-        padding-inline-start: 0px;
-        overflow: hidden;
-        background-color: rgba(51, 51, 51, 0.900);
-    }
-    .nav__icon a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    .nav__icon a:hover {
-        background-color: #ddd;
-        color: rgba(0, 0, 0, 0.900);
-    }
-
-  
-    
+.nav__foot a:hover {
+    background-color: #ddd;
+    color: rgba(0, 0, 0, 0.900);
+}
