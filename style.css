@@ -1,6 +1,7 @@
 *{
     border-width: 1px;
     font-family: Cambria, sans-serif;
+
 }
 
 #main-header{
@@ -50,7 +51,14 @@
     font-size: 120%; 
 }
 
-.virtual_crab a:link {
+.virtual_crab a {
+    color:rgb(35, 35, 35);
+}
+.virtual_crab a:visited{
+    color:rgb(35, 35, 35);
+}
+
+.hospital a {
     color:rgb(35, 35, 35);
 }
 
