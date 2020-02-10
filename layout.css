@@ -10,9 +10,6 @@
     justify-content: center;
     text-align: center;
 }
-.ul{
-    margin: a;
-}
 
 .nav__icon{
     padding:5px;
@@ -37,7 +34,7 @@ body{
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: 1900px;
-margin: auto;
+    margin: auto;
 }
 .nav__foot {
     padding: -10px;
