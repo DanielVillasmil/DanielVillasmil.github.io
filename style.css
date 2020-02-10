@@ -39,6 +39,7 @@
 .contact{  
     color: rgb(35, 35, 35);
 }
+
 .solidprojec {
     background-color: rgba(211, 211, 211, 0.900); width: 300px;
     border: 15px solid rgba(51, 51, 51, 0.900);
@@ -67,4 +68,34 @@
 .nav__foot a:hover {
     background-color: #ddd;
     color: rgba(0, 0, 0, 0.900);
+}
+
+.github{
+    background-color: rgba(211, 211, 211, 0.900);
+    border: 10px solid rgba(51, 51, 51, 0.900);
+    font-size: 120%;
+}
+
+.github a:visited{
+    color:rgb(35, 35, 35);
+}
+
+.linkedin{
+    background-color: rgba(211, 211, 211, 0.900);
+    border: 10px solid rgba(51, 51, 51, 0.900);
+    font-size: 120%;
+}
+
+.linkedin a:visited{
+    color:rgb(35, 35, 35);
+}
+
+.gmail{
+    background-color: rgba(211, 211, 211, 0.900);
+    border: 10px solid rgba(51, 51, 51, 0.900);
+    font-size: 120%;
+}
+
+.gmail a:visited{
+    color:rgb(35, 35, 35);
 }

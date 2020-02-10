@@ -37,7 +37,6 @@ body{
     margin: auto;
 }
 .nav__foot {
-    padding: -10px;
     margin-top: 100px;
     display: flex;
     flex-direction: row;
@@ -83,22 +82,49 @@ body{
     display: grid;
     grid-area: auto;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px;
+    grid-template-rows: 150px;
+    column-gap: 50px;
+    text-decoration: none;
 }
 .github{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    text-decoration: none;
+    grid-column: 1;
+    grid-row: 2;
+   
 }
+#git{
+    text-decoration: none;
+}
+
 .linkedin{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    text-decoration: none;
+    grid-row: 2;
+    grid-column: 2;
 }
+#link{
+    text-decoration: none;
+}
+
 .gmail{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    text-decoration: none;
+    grid-column: 3;
+    grid-row: 2;
+   
+} 
+#mail{
+    text-decoration: none;
 }
 
 .pictures__picture-box{
