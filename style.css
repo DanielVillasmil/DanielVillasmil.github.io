@@ -1,5 +1,5 @@
 *{
-    border-width: 1px;
+  
     font-family: Cambria, sans-serif;
 
 }
@@ -14,7 +14,6 @@
 }
       
 .nav__icon a {
-    color: #f2f2f2;
     text-decoration: none;
     color: #f2f2f2;
     font-size: 140%;
@@ -40,27 +39,16 @@
 .contact{  
     color: rgb(35, 35, 35);
 }
-
-.social__media{
-    color: rgb(35, 35, 35);
-}
-
 .solidprojec {
     background-color: rgba(211, 211, 211, 0.900); width: 300px;
     border: 15px solid rgba(51, 51, 51, 0.900);
     font-size: 120%; 
 }
 
-.virtual_crab a {
-    color:rgb(35, 35, 35);
-}
 .virtual_crab a:visited{
     color:rgb(35, 35, 35);
 }
 
-.hospital a {
-    color:rgb(35, 35, 35);
-}
 
 .hospital a:visited{
     color:rgb(35, 35, 35);

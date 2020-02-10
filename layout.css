@@ -1,8 +1,4 @@
 *{
-    border-width: 1px;
-    font-family: Cambria, sans-serif;
-    padding: 0px;
-    margin: 0px;
 
 }
 .header_icons{
@@ -17,22 +13,22 @@
     justify-content: center;
     text-align: center;
 }
+.ul{
+    margin: a;
+}
 
 .nav__icon{
     padding:5px;
-    display: grid;
     grid-template-columns: 1000px;
     grid-template-rows: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center;
     margin-left:0px;
     margin-right: 0px;
 }
 
 .nav__icon a{
-    display: block;
     text-align: center;
     padding: 14px 16px;
     float: left;
@@ -44,11 +40,11 @@ body{
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: 1900px;
+margin: auto;
 }
 .nav__foot {
-    padding: 30px;
-    text-align: center;
-    margin-bottom: 0px;
+    padding: -10px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -60,7 +56,6 @@ body{
 
 .nav__foot a {
     display: block;
-    text-align: center;
 }
 
 .bio__header{
@@ -76,6 +71,7 @@ body{
 }
 
 .solidbio {
+    margin-top: 50px;
     width: 500px;
     margin: auto;
 }
@@ -87,7 +83,6 @@ body{
 }
 
 .social__media {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 50px;
