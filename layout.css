@@ -101,16 +101,25 @@
     row-gap: 25px;
     }
 
-.solidprojec{
-    padding: 50px;
+.oneDayAtATime{
+    padding: 20px;
     margin: auto;
     justify-content: center;
 }
-
-.hospital{
-    font-size: 100%;
+.purpleHaze{
+    padding: 20px;
+    margin: auto;
     justify-content: center;
-    text-align: center;
+}
+.clicking__calamity{
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+}
+.reviews__site{
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
 }
 h2{
     margin: 10px;

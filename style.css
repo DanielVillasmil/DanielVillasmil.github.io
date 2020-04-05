@@ -1,11 +1,20 @@
     *{
         margin: 0;
         font-family: Cambria, sans-serif;
-    }
-    body{
+    } 
+      body::after {
         background-image: url("https://s3-us-west-2.amazonaws.com/dronephotos.soldbyair.com/drone-photo-columbus-oh.jpg");
-        background-size: cover;
-        }
+        background-size:auto;
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;   
+        opacity: 0.6;
+      }
+   
 
     #main-header{
         font-size: 50px;
@@ -42,7 +51,19 @@
         margin: 10px;
     }
 
-    .solidprojec {
+    .oneDayAtATime {
+        background-color: rgb(211, 211, 211); width: 300px;
+        border: 15px solid rgb(51, 51, 51);
+    }
+    .purpleHaze {
+        background-color: rgb(211, 211, 211); width: 300px;
+        border: 15px solid rgb(51, 51, 51);
+    }
+    .clicking__calamity {
+        background-color: rgb(211, 211, 211); width: 300px;
+        border: 15px solid rgb(51, 51, 51);
+    }
+    .reviews__site {
         background-color: rgb(211, 211, 211); width: 300px;
         border: 15px solid rgb(51, 51, 51);
     }
